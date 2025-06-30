@@ -17,6 +17,85 @@
 n8n, 퀀트 전략, 프롬프트를 공유하고 토론하는 공간입니다.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>워크플로우 제출하기</title>
+      <link>https://quantnode.kr/submit-workflow/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0900</pubDate>
+      <guid>https://quantnode.kr/submit-workflow/</guid>
+      <description>&lt;h1 id=&#34;-n8n-워크플로우-공유하기&#34;&gt;🚀 n8n 워크플로우 공유하기&lt;/h1&gt;
+&lt;p&gt;커뮤니티와 여러분의 워크플로우를 공유해주세요!&lt;/p&gt;
+&lt;h2 id=&#34;-제출-방법&#34;&gt;📋 제출 방법&lt;/h2&gt;
+&lt;h3 id=&#34;option-1-github-issue로-제출-추천&#34;&gt;Option 1: GitHub Issue로 제출 (추천)&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/restful3/quantnode-site/issues/new?template=workflow-submission.md&#34;&gt;워크플로우 제출 Issue 생성&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;템플릿에 따라 정보 입력&lt;/li&gt;
+&lt;li&gt;n8n JSON 파일 첨부&lt;/li&gt;
+&lt;li&gt;스크린샷 첨부 (선택사항)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;option-2-이메일로-제출&#34;&gt;Option 2: 이메일로 제출&lt;/h3&gt;
+&lt;p&gt;📧 &lt;strong&gt;&lt;a href=&#34;mailto:contact@quantnode.kr&#34;&gt;contact@quantnode.kr&lt;/a&gt;&lt;/strong&gt;로 다음 정보와 함께 전송:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;워크플로우 제목&lt;/li&gt;
+&lt;li&gt;설명 (용도, 주요 기능)&lt;/li&gt;
+&lt;li&gt;카테고리 (자동매매, 분석, 알림 등)&lt;/li&gt;
+&lt;li&gt;n8n JSON 파일&lt;/li&gt;
+&lt;li&gt;스크린샷 (선택사항)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-제출-가이드라인&#34;&gt;📝 제출 가이드라인&lt;/h2&gt;
+&lt;h3 id=&#34;필수-정보&#34;&gt;필수 정보&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;제목&lt;/strong&gt;: 명확하고 설명적인 제목&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;설명&lt;/strong&gt;: 워크플로우의 목적과 주요 기능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;카테고리&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;🔄 자동매매&lt;/li&gt;
+&lt;li&gt;📊 데이터 분석&lt;/li&gt;
+&lt;li&gt;📢 알림/모니터링&lt;/li&gt;
+&lt;li&gt;🛠️ 유틸리티&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;난이도&lt;/strong&gt;: 초급 / 중급 / 고급&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON 파일&lt;/strong&gt;: n8n에서 Export한 워크플로우 파일&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;선택-정보&#34;&gt;선택 정보&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;스크린샷 또는 다이어그램&lt;/li&gt;
+&lt;li&gt;설정 가이드&lt;/li&gt;
+&lt;li&gt;필요한 API 키나 설정&lt;/li&gt;
+&lt;li&gt;사용 팁&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-워크플로우-예시&#34;&gt;🎯 워크플로우 예시&lt;/h2&gt;
+&lt;h3 id=&#34;-업비트-자동매매-워크플로우&#34;&gt;📈 업비트 자동매매 워크플로우&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Upbit Auto Trading&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;nodes&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Schedule Trigger&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;@n8n/n8n-nodes-base.scheduleTrigger&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HTTP Request - Get Price&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;@n8n/n8n-nodes-base.httpRequest&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-검토-과정&#34;&gt;✅ 검토 과정&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;제출&lt;/strong&gt;: GitHub Issue 또는 이메일&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;검토&lt;/strong&gt;: 관리자가 워크플로우 검토 (1-3일)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;승인&lt;/strong&gt;: 사이트에 추가 및 자동 배포&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;알림&lt;/strong&gt;: 제출자에게 승인 완료 알림&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-기여자-혜택&#34;&gt;🏆 기여자 혜택&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;워크플로우 작성자 크레딧&lt;/li&gt;
+&lt;li&gt;커뮤니티 기여자 뱃지&lt;/li&gt;
+&lt;li&gt;우수 워크플로우 하이라이트&lt;/li&gt;
+&lt;li&gt;Discord VIP 채널 초대&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;함께 만들어가는 QuantNode 커뮤니티에 참여해주세요!&lt;/strong&gt; 🎉&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>QuantNode.kr 콘텐츠 기획서</title>
       <link>https://quantnode.kr/posts/quantnode-content-plan/</link>
       <pubDate>Sat, 30 Mar 2024 10:00:00 +0900</pubDate>
