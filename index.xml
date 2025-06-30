@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>QuantNode 커뮤니티</title>
+    <title>QuantNode.kr - AI 기반 퀀트 자동화 커뮤니티 on QuantNode 커뮤니티</title>
     <link>https://quantnode.kr/</link>
-    <description>Recent content on QuantNode 커뮤니티</description>
+    <description>Recent content in QuantNode.kr - AI 기반 퀀트 자동화 커뮤니티 on QuantNode 커뮤니티</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quantnode.kr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>환영합니다!</title>
+      <link>https://quantnode.kr/posts/welcome/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantnode.kr/posts/welcome/</guid>
+      <description>&lt;p&gt;QuantNode.kr 커뮤니티에 오신 걸 환영합니다!&lt;br&gt;
+n8n, 퀀트 전략, 프롬프트를 공유하고 토론하는 공간입니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QuantNode.kr 콘텐츠 기획서</title>
+      <link>https://quantnode.kr/posts/quantnode-content-plan/</link>
+      <pubDate>Sat, 30 Mar 2024 10:00:00 +0900</pubDate>
+      <guid>https://quantnode.kr/posts/quantnode-content-plan/</guid>
+      <description>No-Code/프롬프트 기반 퀀트 자동화 커뮤니티 QuantNode.kr의 콘텐츠 기획서</description>
+    </item>
   </channel>
 </rss>

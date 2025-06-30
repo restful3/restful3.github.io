@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>로드맵 on QuantNode 커뮤니티</title>
+    <link>https://quantnode.kr/tags/%EB%A1%9C%EB%93%9C%EB%A7%B5/</link>
+    <description>Recent content in 로드맵 on QuantNode 커뮤니티</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2024 10:00:00 +0900</lastBuildDate>
+    <atom:link href="https://quantnode.kr/tags/%EB%A1%9C%EB%93%9C%EB%A7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QuantNode.kr 콘텐츠 기획서</title>
+      <link>https://quantnode.kr/posts/quantnode-content-plan/</link>
+      <pubDate>Sat, 30 Mar 2024 10:00:00 +0900</pubDate>
+      <guid>https://quantnode.kr/posts/quantnode-content-plan/</guid>
+      <description>No-Code/프롬프트 기반 퀀트 자동화 커뮤니티 QuantNode.kr의 콘텐츠 기획서</description>
+    </item>
+  </channel>
+</rss>
